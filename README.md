@@ -5,22 +5,22 @@ A path-enumeration based approach with the help of z3 Theorem Prover in order to
 ## Prerequisites
 
 1. **Python 3.7 or higher.**
-2. **Colorama.** Can be installed using the terminal command
+2. **Colorama.** Can be installed in Linux using the terminal command
 
     ```shell
        pip3 install colorama
     ```
-3. **Numpy and Matplotlib.** Can be installed using the terminal command
+3. **Numpy and Matplotlib.** Can be installed in Linux using the terminal command
 
     ```shell
        pip3 install numpy matplotlib
     ```
-4. **TSPLIB95 and Networkx.** Can be installed using the terminal command
+4. **TSPLIB95 and Networkx.** Can be installed in Linux using the terminal command
 
     ```shell
        pip3 install networkx==2.6.2 tsplib95
     ```
-5. **z3 Theorem Prover.** Can be installed using the terminal command
+5. **z3 Theorem Prover.** Can be installed in Linux using the terminal command
 
     ```shell
        pip3 install z3-solver
@@ -29,7 +29,7 @@ A path-enumeration based approach with the help of z3 Theorem Prover in order to
 
 ## Source Code
 
-A source code for the algorithm can be found in the ./src/ directory. To run the tool, one can install the prerequisites and then run the following command in terminal.
+A source code for the algorithm can be found in the ./src/ directory. To run the tool in Linux, one can install the prerequisites and then run the following command in terminal.
 
 ```shell
 git clone https://github.com/dassarthak18/tsp_sat.git
