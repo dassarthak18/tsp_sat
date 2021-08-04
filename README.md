@@ -8,7 +8,7 @@ A path-enumeration based approach with the help of z3 Theorem Prover in order to
 2. **Colorama.** Can be installed using the terminal command
 
     ```shell
-       pip3 install networkx==2.6.2
+       pip3 install colorama
     ```
 3. **Numpy and Matplotlib.** Can be installed using the terminal command
 
