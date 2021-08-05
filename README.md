@@ -1,6 +1,6 @@
 # An exact solution to TSP using SAT solving and TSP heuristics
 
-A path-enumeration based approach with the help of z3 Theorem Prover in order to find an exact solution to the Travelling Salesman Problem (TSP), using as an upper bound an approximate solution as obtained from Christofides algorithm.
+A path-enumeration based approach with the help of z3 Theorem Prover in order to find an exact solution to the Travelling Salesman Problem (TSP), using as an upper bound an optimal solution as obtained from Christofides algorithm.
 
 ## Prerequisites
 
