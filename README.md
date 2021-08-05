@@ -23,7 +23,7 @@ A path-enumeration based approach with the help of z3 Theorem Prover in order to
 5. **z3 Theorem Prover.** Can be installed using the terminal command
 
     ```shell
-       pip3 install z3-solver
+       pip3 install z3-solver==4.8.12
     ```
     Their [github repository](https://github.com/Z3Prover/z3) can be checked for further details.
 
