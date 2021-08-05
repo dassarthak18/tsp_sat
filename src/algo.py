@@ -124,6 +124,8 @@ def z3_path_subs(G,u=1):
 		tsp_cost = calc_cost_subs(G,path) # calculate the cost of the path
 
 		# Once a cycle is obtained another cycle of cost greater than equal to the previous is rejected
+		s.reset()
+		s.add(exp1, exp2, exp3, exp4, exp5)
 		s.add(c < tsp_cost)
 		count += 1
 
