@@ -92,13 +92,13 @@ def z3_path_subs(G,u=1):
 	for i in range(k):
 		c = c + z3.Real(f"c{i}")
 
-	s.add(c <= ub) # Setting an upper bound to TSP cost
-
 	# Inputting the graph encoding to the SAT Solver
-	s.add(exp1, exp2, exp3, exp4, exp5)
 	print(Style.RESET_ALL + "Done encoding.")
 	t2 = datetime.datetime.now()
 	print(Style.RESET_ALL + "Time taken to encode into SAT (hr:min:sec): ", t2-t1)
+
+	s.add(exp1, exp2, exp3, exp4, exp5)
+	s.add(c <= ub) # Setting an upper bound to TSP cost
 
 	# Searching for TSP solution
 	t3 = datetime.datetime.now()
@@ -135,3 +135,4 @@ def z3_path_subs(G,u=1):
 
 	t4 = datetime.datetime.now()
 	print(Style.RESET_ALL + "Time taken by z3 to solve TSP (hr:min:sec): ", t4-t3)
+	print(Style.RESET_ALL + "Total time taken by our algorithm (hr:min:sec): ", t4-t5)
