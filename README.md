@@ -18,12 +18,14 @@ A path-enumeration based approach with the help of z3 Theorem Prover in order to
 4. **TSPLIB95 and Networkx.** Can be installed using the terminal command
 
     ```shell
-       pip3 install networkx==2.6.2 tsplib95
+       pip3 install networkx tsplib95
+       pip3 install --upgrade networkx
     ```
 5. **z3 Theorem Prover.** Can be installed using the terminal command
 
     ```shell
-       pip3 install z3-solver==4.8.12
+       pip3 install z3-solver
+       pip3 install --upgrade z3-solver
     ```
     Their [github repository](https://github.com/Z3Prover/z3) can be checked for further details.
 
