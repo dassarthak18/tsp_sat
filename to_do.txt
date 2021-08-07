@@ -1,5 +1,6 @@
-1. Compare main branch and binary branch timings, try to reduce bound-solution gap
+1.1. Compare main branch and binary branch timings
+1.2. try to reduce bound-solution gap
 2. Minimize the constraints exp1 to exp4 before feeding to z3
-3. Reduce the time taken to conclude "unsat"
-4. How to minimize the effect of linear constraints? (Check for papers)
-5. Check out Concorde's algo
+3. How to minimize the effect of linear constraints? (Check for papers)
+4. Check out Concorde's algo
+5. Can result be considered optimal?
