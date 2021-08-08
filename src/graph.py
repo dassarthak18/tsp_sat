@@ -29,6 +29,6 @@ else:
 					H.add_edge(i+1,j+1,weight = w)
 	G = H.to_undirected()
 
-nx.write_edgelist(G, "graph.edgelist")
+nx.write_gpickle(G, "tsp.gpickle")
 
 print("Graph loaded.")

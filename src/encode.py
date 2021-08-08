@@ -17,7 +17,7 @@ def edge_cost(G,u,v):
 	else:
 		return 0
 
-G = nx.read_edgelist("graph.edgelist")
+G = nx.read_gpickle("tsp.gpickle")
 
 u = 1
 k = G.number_of_nodes()
