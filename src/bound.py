@@ -11,7 +11,7 @@ def toSMT2Benchmark(f, status="unknown", name="benchmark", logic=""):
 			f = And(*a)
 	return Z3_benchmark_to_smtlib_string(f.ctx_ref(), name, logic, status, "", 0, v, f.as_ast())
 
-G = nx.read_gpickle("tsp.gpickle")
+G = nx.read_edgelist("tsp.txt")
 k = G.number_of_nodes()
 s = Solver()
 

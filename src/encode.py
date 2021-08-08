@@ -17,7 +17,7 @@ def edge_cost(G,u,v):
 	else:
 		return 0
 
-G = nx.read_gpickle("tsp.gpickle")
+G = nx.read_edgelist("tsp.txt")
 
 u = 1
 k = G.number_of_nodes()

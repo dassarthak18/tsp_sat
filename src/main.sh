@@ -57,7 +57,7 @@ echo "Search ended."
 echo "The solution to TSP for the given graph is $tsp_path with cost $tsp_cost."
 
 # Cleaning the directory after job is done
-rm tsp.gpickle
+rm tsp.txt
 rm graph_raw.smt2
 rm graph_bound.smt2
 rm test_sat.smt2

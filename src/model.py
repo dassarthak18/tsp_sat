@@ -8,7 +8,7 @@ def calc_cost_subs(G,path):
 		i = i+1
 	return cost
 
-G = nx.read_gpickle("tsp.gpickle")
+G = nx.read_edgelist("tsp.txt")
 k = G.number_of_nodes()
 
 with open("model.txt", "r") as file:
@@ -24,7 +24,7 @@ for i in range(2,len(string)-1):
 			x = string[i].strip()
 			y = x[x.find("v")+1:x.find("_")]
 			z = x[x.find("_")+1:x.find(" () ")]
-			path[int(z)] = int(y)
+			path[int(z)] = str(y)
 
 cost = calc_cost_subs(G,path)
 
