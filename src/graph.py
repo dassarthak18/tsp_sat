@@ -2,12 +2,6 @@ import tsplib95 as tsp
 import networkx as nx
 from os import sys
 
-def edge_cost(G,u,v):
-	if G.has_edge(u,v):
-		return G[u][v]['weight']
-	else:
-		return 0
-
 choice = int(sys.argv[1])
 
 if choice == 1:
