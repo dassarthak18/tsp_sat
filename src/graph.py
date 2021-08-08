@@ -4,8 +4,6 @@ from datetime import datetime
 from os import sys
 
 choice = int(sys.argv[1])
-now = 0.0
-later = 0.0
 
 if choice == 1:
 	filename = str(sys.argv[2])
