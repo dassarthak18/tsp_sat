@@ -45,7 +45,7 @@ Please note that other than a few standard .tsp benchmarks, the ./src/benchmarks
 To run the tool on a manually loaded graph, one must run
 
 ```shell
-runlim -t 3600 ./main.sh v2
+runlim -r 3600 ./main.sh v2
 ```
 
-The "runlim -t 3600" clause serves to measure the time and space performance of the tool and kill process if it fails to terminate within 3600 seconds. The timeout period can be suitably modified or the entire clause can be dropped if not needed.
+The "runlim -r 3600" clause serves to measure the time and space performance of the tool and kill process if it fails to terminate within 3600 seconds. The timeout period can be suitably modified or the entire clause can be dropped if not needed.
