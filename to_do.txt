@@ -1,3 +1,0 @@
-1. Minimize the constraints exp1 to exp4 before feeding to z3
-2. How to minimize the effect of linear constraints? (Check for papers)
-3. Check out Concorde's algo
