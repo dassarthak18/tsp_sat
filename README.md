@@ -49,3 +49,10 @@ runlim -r 3600 ./main.sh v2
 ```
 
 The "runlim -r 3600" clause serves to measure the time and space performance of the tool and kill process if it fails to terminate within 3600 seconds. The timeout period can be suitably modified or the entire clause can be dropped if not needed.
+
+## To-Do List
+
+
+- [ ] Minimize the constraints exp1 to exp4 before feeding to z3
+- [ ] How to minimize the effect of linear constraints? (Check for papers)
+- [ ] Check out Concorde's TSP algorithm
